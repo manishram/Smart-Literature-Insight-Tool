@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Literature Insight Tool",
+  "version": "1.0",
+  "description": "Smart Literature Insight Tool Chrome extension streamlines literature review by extracting valuable insights from research papers.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "images/img16.png",
+    "128": "images/img128.png"
+  },
+  "permissions": ["activeTab", "scripting", "storage"]
+}
